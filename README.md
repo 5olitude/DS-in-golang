@@ -24,7 +24,7 @@ func main() {
 	}
 	fmt.Println(numbers)
 }
-
+```
 [Click here to view the Maximum Value program file](https://github.com/5olitude/DS-in-golang/blob/25c34d61562494f06a036471802513f6caa4f3e6/maximum.go)
 
 ## 2. Bubble Sorting Algorithm Program
