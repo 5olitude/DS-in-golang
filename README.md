@@ -32,6 +32,7 @@ func main() {
 
 Description: This program implements the bubble sort algorithm, a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
 ```go
+package main
 import "fmt"
 
 func main() {
@@ -59,6 +60,7 @@ func main() {
 
 Description: This program calculates the minimum value from a given list of numbers. It's useful for finding the smallest element in a dataset.
 ```go
+package main
 import "fmt"
 
 func main() {
@@ -74,4 +76,41 @@ func main() {
 	fmt.Println(numbers[min_index])
 }
 ```
-[Click here to view the Minimum Value program file](https://github.com/5olitude/DS-in-golang/blob/25c34d61562494f06a036471802513f6caa4f3e6/images/min.png)
+[Click here to view the Minimum Value program file](https://github.com/5olitude/DS-in-golang/blob/44c0643f099386b204e9bdb4d434ff94043ff0ab/min_value.go)
+
+## 4. Selection Sort Program
+![Selection Sort](https://github.com/5olitude/DS-in-golang/blob/44c0643f099386b204e9bdb4d434ff94043ff0ab/images/selection.png)
+
+Description: Selection Sort in golang.
+```go
+package main
+
+import "fmt"
+
+func main() {
+	arr := []int{90, 70, 50, 80, 60, 85}
+
+	var min_index int
+	for i := 0; i < len(arr)-1; i++ {
+		min_index = i
+		min_value := arr[min_index]
+		for j := i; j < len(arr)-1; j++ {
+			if min_value > arr[j+1] {
+
+				min_index = j + 1
+				min_value = arr[j+1]
+			}
+
+		}
+		if i != min_index {
+			temp := arr[i]
+			arr[i] = arr[min_index]
+			arr[min_index] = temp
+
+		}
+	}
+	fmt.Println(arr)
+}
+```
+[Click here to view the Minimum Value program file](https://github.com/5olitude/DS-in-golang/blob/44c0643f099386b204e9bdb4d434ff94043ff0ab/selection-sort.go)
+
