@@ -112,5 +112,5 @@ func main() {
 	fmt.Println(arr)
 }
 ```
-[Click here to view the Minimum Value program file](https://github.com/5olitude/DS-in-golang/blob/44c0643f099386b204e9bdb4d434ff94043ff0ab/selection-sort.go)
+[Click here to view the Selection sort program file](https://github.com/5olitude/DS-in-golang/blob/44c0643f099386b204e9bdb4d434ff94043ff0ab/selection-sort.go)
 
