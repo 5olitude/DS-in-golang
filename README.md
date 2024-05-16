@@ -3,7 +3,7 @@
 Welcome to my repository where I've shared some useful programs. Below you'll find a brief description of each program along with its corresponding image link.
 
 ## 1. Maximum Value Program
-![Maximum Value](https://github.com/5olitude/DS-in-golang/blob/25c34d61562494f06a036471802513f6caa4f3e6/images/max.png)
+![Maximum Value](https://github.com/5olitude/DS-in-golang/blob/554385a8dc491c580c50be068c37a634534de023/images/tableappend.png)
 
 Description: This program calculates the maximum value from a given list of numbers. It's useful for finding the largest element in a dataset.
 ```go
