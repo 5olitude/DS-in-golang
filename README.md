@@ -137,4 +137,4 @@ func main() {
 }
 
 ```
-[Click here to view the Selection sort program file]()
+[Click here to view the Selection sort program file](https://github.com/5olitude/DS-in-golang/blob/83cc39fd015be40443d9dbce3d68d443be3b7c64/linear_table_append.go)
