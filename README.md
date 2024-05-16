@@ -180,4 +180,4 @@ func main() {
 
 
 ```
-[Click here to view the Linear Table insert program file]()
+[Click here to view the Linear Table insert program file](https://github.com/5olitude/DS-in-golang/blob/70cef3fc1d6f5375d56c877916388dcfc7882d39/linear_table_insert.go)
