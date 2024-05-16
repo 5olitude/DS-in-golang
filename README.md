@@ -1,9 +1,9 @@
-# My DS Repository in GO
+# My DataStructure Repository in GO
 
 Welcome to my repository where I've shared some useful programs. Below you'll find a brief description of each program along with its corresponding image link.
 
 ## 1. Maximum Value Program
-![Maximum Value](https://github.com/5olitude/DS-in-golang/blob/554385a8dc491c580c50be068c37a634534de023/images/tableappend.png)
+![Maximum Value](https://github.com/5olitude/DS-in-golang/blob/64b1fccb97dc9be8c3bbf9b882950200e5d70334/images/max.png)
 
 Description: This program calculates the maximum value from a given list of numbers. It's useful for finding the largest element in a dataset.
 ```go
