@@ -185,7 +185,7 @@ func main() {
 [Click here to view the Linear Table insert program file](https://github.com/5olitude/DS-in-golang/blob/70cef3fc1d6f5375d56c877916388dcfc7882d39/linear_table_insert.go)
 
 ## 6. Linear Table Delete
-![Linear Table Delete]()
+![Linear Table Delete](https://github.com/5olitude/DS-in-golang/blob/71ffd491b14743fdcc644662c9aac114fb2d02cb/images/linear_table_delete.png)
 Description: Linear Table Delete in Golang.
 ```go
 package main
