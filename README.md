@@ -144,7 +144,7 @@ func main() {
 ```
 [Click here to view the Linear Table append program file](https://github.com/5olitude/DS-in-golang/blob/83cc39fd015be40443d9dbce3d68d443be3b7c64/linear_table_append.go)
 ## 6. Linear Table Insert
-![Linear Table Insert]
+![Linear Table Insert](https://github.com/5olitude/DS-in-golang/blob/d7ffb7138a2ba4c9f7f7863e7146cf199a49536d/images/linear_table_insert.png)
 Description: Linear Table Insert in Golang.
 ```go
 package main
