@@ -1,7 +1,11 @@
 # My DataStructure Repository in GO
 
 Welcome to my repository where I've shared some useful programs. Below you'll find a brief description of each program along with its corresponding image link.
-
+## Table of Contents
+1. [Maximum Value Program](#1-maximum-value-program)
+2. [Bubble Sorting Algorithm Program](#2-bubble-sort)
+3. [Minimum Value Program](#3-Minimum-Value-Program)
+4. [ Selection Sort Program](#4-Selection-Sort-Program)
 ## 1. Maximum Value Program
 ![Maximum Value](https://github.com/5olitude/DS-in-golang/blob/64b1fccb97dc9be8c3bbf9b882950200e5d70334/images/max.png)
 
