@@ -114,3 +114,26 @@ func main() {
 ```
 [Click here to view the Selection sort program file](https://github.com/5olitude/DS-in-golang/blob/44c0643f099386b204e9bdb4d434ff94043ff0ab/selection-sort.go)
 
+## 5. Linear Table Append 
+![Selection Sort](https://github.com/5olitude/DS-in-golang/blob/44c0643f099386b204e9bdb4d434ff94043ff0ab/images/selection.png)
+Description: Linear Table Append in Golang.
+```go
+package main
+
+import "fmt"
+
+func main() {
+	arr := []int{90, 70, 50, 80, 60, 85}
+	length := len(arr)
+	temp := make([]int, length+1)
+	for i := 0; i < len(arr); i++ {
+		temp[i] = arr[i]
+
+	}
+	temp[length] = 75
+
+	fmt.Println(temp)
+
+}
+
+```
