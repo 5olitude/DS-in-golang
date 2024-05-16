@@ -1,4 +1,4 @@
-# My DataStructure Repository in GO
+#  Data Structure and algorithm Repository in Golang
 
 Welcome to my repository where I've shared some useful programs. Below you'll find a brief description of each program along with its corresponding image link.
 ## Table of Contents
