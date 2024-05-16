@@ -7,6 +7,7 @@ Welcome to my repository where I've shared some useful programs. Below you'll fi
 3. [Minimum Value Program](#3-Minimum-Value-Program)
 4. [ Selection Sort Program](#4-Selection-Sort-Program)
 5. [Linear Table Append](#5-Linear-Table-Append)
+6. [Linear Table Insert](#6-Linear-Table-Insert)
 ## 1. Maximum Value Program
 ![Maximum Value](https://github.com/5olitude/DS-in-golang/blob/64b1fccb97dc9be8c3bbf9b882950200e5d70334/images/max.png)
 
