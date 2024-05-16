@@ -3,7 +3,7 @@
 Welcome to my repository where I've shared some useful programs. Below you'll find a brief description of each program along with its corresponding image link.
 ## Table of Contents
 1. [Maximum Value Program](#1-maximum-value-program)
-2. [Bubble Sorting Algorithm Program](#2-bubble-sort)
+2. [Bubble Sorting Algorithm Program](#2-Bubble-Sorting-Algorithm-Program)
 3. [Minimum Value Program](#3-Minimum-Value-Program)
 4. [ Selection Sort Program](#4-Selection-Sort-Program)
 ## 1. Maximum Value Program
