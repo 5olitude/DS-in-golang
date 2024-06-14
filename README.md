@@ -216,7 +216,7 @@ func main() {
 ```
 [Click here to view the Linear Table delete program file](https://github.com/5olitude/DS-in-golang/blob/351623794d6ffe39d1d0950b4be7a0d543c258e9/linear_table_delete.go)
 ## 8. Insertion Sort Algorithm
-![Insertion Sort](https://github.com/5olitude/DS-in-golang/blob/c28efa6b7a650d154eec94243c10d67e470117a9/images/insert.png)
+![Insertion Sort Algorithm](https://github.com/5olitude/DS-in-golang/blob/c28efa6b7a650d154eec94243c10d67e470117a9/images/insert.png)
 Description: Insertion Sort  in Golang.
 ```go
 package main
