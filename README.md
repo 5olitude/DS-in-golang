@@ -10,7 +10,7 @@ Welcome to my repository where I've shared some useful programs. Below you'll fi
 6. [Linear Table Insert](#6-Linear-Table-Insert)
 7. [Linear Table Delete](#7-Linear-Table-Delete)
 8. [Insertion Sort Algorithm](#8-Insertion-Sort-Algorithm)
-   
+9. [Array Reverse](#-Array-Reverse)
 ## 1. Maximum Value Program
 ![Maximum Value](https://github.com/5olitude/DS-in-golang/blob/64b1fccb97dc9be8c3bbf9b882950200e5d70334/images/max.png)
 
@@ -247,3 +247,25 @@ func main() {
 
 ```
 [Click here to view the Insertion Sort  program file](https://github.com/5olitude/DS-in-golang/blob/e96c4c712c2b907e5316fc69f0c4c9902346689d/insert_sort.go)
+## 9. Array Reverse
+![Array Reverse]()
+Description: Array Reverse In Golang .
+```go
+package main
+
+import "fmt"
+
+func main() {
+	arr := []int{50, 60, 70, 80, 90}
+	middle := len(arr) / 2
+	for i := 0; i <= middle; i++ {
+		temp := arr[i]
+		arr[i] = arr[len(arr)-i-1]
+		arr[len(arr)-i-1] = temp
+
+	}
+	fmt.Println(arr)
+}
+
+```
+[Click here to view the Array Reverse  program file]()
