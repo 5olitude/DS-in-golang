@@ -11,6 +11,7 @@ Welcome to my repository where I've shared some useful programs. Below you'll fi
 7. [Linear Table Delete](#7-Linear-Table-Delete)
 8. [Insertion Sort Algorithm](#8-Insertion-Sort-Algorithm)
 9. [Array Reverse](#9-Array-Reverse)
+10. [Linear Table Search](#10-Linear-Table-Search)
 ## 1. Maximum Value Program
 ![Maximum Value](https://github.com/5olitude/DS-in-golang/blob/64b1fccb97dc9be8c3bbf9b882950200e5d70334/images/max.png)
 
@@ -269,3 +270,29 @@ func main() {
 
 ```
 [Click here to view the Array Reverse  program file](https://github.com/5olitude/DS-in-golang/blob/3544dd73f52ec8c3c8a3f58c0fa6c5846b425cb0/array-reverse.go)
+## 10. Linear Table Search
+![Linear Table Search]()
+Description: Linear Table Search In Golang .
+```go
+package main
+import "fmt"
+func main() {
+var scores = []int{90, 70, 50, 80, 60, 85}
+ fmt.Printf("Please enter the value you want to search : \n")
+var value int
+fmt.Scan(&value)
+var isSearch = false
+var length = len(scores)
+ for i := 0; i < length; i++ {
+if scores[i] == value {
+isSearch = true
+fmt.Printf("Found value: %d the index is: %d", value,i)
+}
+}
+if !isSearch {
+fmt.Printf("The value was not found : %d", value)
+}
+ }
+
+```
+[Click here to view the Linear Table search  program file]
