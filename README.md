@@ -275,24 +275,26 @@ func main() {
 Description: Linear Table Search In Golang .
 ```go
 package main
+
 import "fmt"
+
 func main() {
-var scores = []int{90, 70, 50, 80, 60, 85}
- fmt.Printf("Please enter the value you want to search : \n")
-var value int
-fmt.Scan(&value)
-var isSearch = false
-var length = len(scores)
- for i := 0; i < length; i++ {
-if scores[i] == value {
-isSearch = true
-fmt.Printf("Found value: %d the index is: %d", value,i)
+	var scores = []int{90, 70, 50, 80, 60, 85}
+	fmt.Printf("Please enter the value you want to search : \n")
+	var value int
+	fmt.Scan(&value)
+	var isSearch = false
+	var length = len(scores)
+	for i := 0; i < length; i++ {
+		if scores[i] == value {
+			isSearch = true
+			fmt.Printf("Found value: %d the index is: %d", value, i)
+		}
+	}
+	if !isSearch {
+		fmt.Printf("The value was not found : %d", value)
+	}
 }
-}
-if !isSearch {
-fmt.Printf("The value was not found : %d", value)
-}
- }
 
 ```
 [Click here to view the Linear Table search  program file]
