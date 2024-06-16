@@ -271,7 +271,7 @@ func main() {
 ```
 [Click here to view the Array Reverse  program file](https://github.com/5olitude/DS-in-golang/blob/3544dd73f52ec8c3c8a3f58c0fa6c5846b425cb0/array-reverse.go)
 ## 10. Linear Table Search
-![Linear Table Search]()
+![Linear Table Search](https://github.com/5olitude/DS-in-golang/blob/7b971a21e5090152ec247777597aed922cdc7dd7/table_search.png)
 Description: Linear Table Search In Golang .
 ```go
 package main
