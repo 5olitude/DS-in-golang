@@ -297,4 +297,4 @@ func main() {
 }
 
 ```
-[Click here to view the Linear Table search  program file]
+[Click here to view the Linear Table search  program file](https://github.com/5olitude/DS-in-golang/blob/9f39038ba037a61c9f4c8d509103f411b0c41a65/linear_table_search.go)
