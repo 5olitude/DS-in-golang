@@ -12,6 +12,7 @@ Welcome to my repository where I've shared some useful programs. Below you'll fi
 8. [Insertion Sort Algorithm](#8-Insertion-Sort-Algorithm)
 9. [Array Reverse](#9-Array-Reverse)
 10. [Linear Table Search](#10-Linear-Table-Search)
+11. [Dichotomy Binary Search](#11-Dichotomy-Binary-Search)
 ## 1. Maximum Value Program
 ![Maximum Value](https://github.com/5olitude/DS-in-golang/blob/64b1fccb97dc9be8c3bbf9b882950200e5d70334/images/max.png)
 
@@ -298,3 +299,42 @@ func main() {
 
 ```
 [Click here to view the Linear Table search  program file](https://github.com/5olitude/DS-in-golang/blob/9f39038ba037a61c9f4c8d509103f411b0c41a65/linear_table_search.go)
+
+## 11. Dichotomy Binary Search
+![Dichotomy Binary Search]()
+Description:Dichotomy Binary Search in golang
+```go
+
+package main
+
+import "fmt"
+
+func main() {
+	search_value := 1
+	arr := []int{1, 2, 3, 4, 5, 6} // must be in sorted order
+	mid := 0
+	low := 0
+	high := len(arr) - 1
+	for {
+		if low >= high {
+			break
+		}
+		mid = (low + high) / 2
+		if arr[mid] == search_value {
+			fmt.Println(mid)
+			return
+
+		} else if arr[mid] > search_value {
+			high = mid - 1
+		} else if arr[mid] < search_value {
+			low = mid + 1
+
+		}
+
+	}
+	fmt.Println("element not found ")
+}
+
+
+```
+[Click here to view the  Dichotomy Binary Search program file]()
