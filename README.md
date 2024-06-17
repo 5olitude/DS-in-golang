@@ -337,4 +337,4 @@ func main() {
 
 
 ```
-[Click here to view the  Dichotomy Binary Search program file]()
+[Click here to view the  Dichotomy Binary Search program file](https://github.com/5olitude/DS-in-golang/blob/fd2ed6c7cc94871ce2a703e2c4d3b8ab11c4879b/dicho-bin-sear.go)
