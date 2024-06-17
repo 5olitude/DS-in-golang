@@ -301,7 +301,7 @@ func main() {
 [Click here to view the Linear Table search  program file](https://github.com/5olitude/DS-in-golang/blob/9f39038ba037a61c9f4c8d509103f411b0c41a65/linear_table_search.go)
 
 ## 11. Dichotomy Binary Search
-![Dichotomy Binary Search]()
+![Dichotomy Binary Search](https://github.com/5olitude/DS-in-golang/blob/95677b1f21b988be7d04690b10d96d86e43aa171/images/Dichot-Binary-Search.png)
 Description:Dichotomy Binary Search in golang
 ```go
 
