@@ -341,7 +341,7 @@ func main() {
 [Click here to view the  Dichotomy Binary Search program file](https://github.com/5olitude/DS-in-golang/blob/fd2ed6c7cc94871ce2a703e2c4d3b8ab11c4879b/dicho-bin-sear.go)
 
 ## 12. Shell Sort
-![Shell Sort]()
+![Shell Sort](https://github.com/5olitude/DS-in-golang/blob/78e1d765f74e79c386322067e008e4fa41aabc6a/images/shell.png)
 Description:Shell Sort in golang
 ```go
 package main
