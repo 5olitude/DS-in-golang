@@ -13,6 +13,7 @@ Welcome to my repository where I've shared some useful programs. Below you'll fi
 9. [Array Reverse](#9-Array-Reverse)
 10. [Linear Table Search](#10-Linear-Table-Search)
 11. [Dichotomy Binary Search](#11-Dichotomy-Binary-Search)
+12. [Shell Sort](#12-Shell-Sort)
 ## 1. Maximum Value Program
 ![Maximum Value](https://github.com/5olitude/DS-in-golang/blob/64b1fccb97dc9be8c3bbf9b882950200e5d70334/images/max.png)
 
@@ -338,3 +339,44 @@ func main() {
 
 ```
 [Click here to view the  Dichotomy Binary Search program file](https://github.com/5olitude/DS-in-golang/blob/fd2ed6c7cc94871ce2a703e2c4d3b8ab11c4879b/dicho-bin-sear.go)
+
+## 12.Shell Sort
+![Shell Sort]()
+Description:Shell Sort in golang
+```go
+package main
+
+import "fmt"
+
+func main() {
+
+	arr := []int{9, 6, 5, 8, 0, 7, 4, 3, 1, 2}
+	var length = len(arr)
+	for gap := length / 2; gap > 0; gap = gap / 2 {
+		for i := gap; i < len(arr); i++ {
+
+			j := i
+
+			for {
+
+				if j-gap < 0 || arr[j] >= arr[j-gap] {
+
+					break
+
+				}
+
+				arr[j], arr[j-gap] = arr[j-gap], arr[j]
+				j = j - gap
+
+			}
+
+		}
+
+	}
+	fmt.Println(arr)
+}
+
+
+
+```
+[Click here to view the Shell Sort program file]()
